@@ -2,7 +2,7 @@
 
 Back2Uni is a DeFi platform created for helping universities interact with their communities. The database is the smart contract, storing all the info fully on-chain. The smart contract was deployed in Polygon Mumbai.
 
-Anyone with a something@any-university.edu email could use the platform to interact with his/her Uni. 
+Anyone with a something@any-university.edu email could use the platform to interact with his/her Uni. Thanks to the Magic SDk we are able to validate the identity of the university users(Funders and Admin user) without any cumbersome steps or long verification process, giving them instanst access to the university pool.
 
 If a user is created and the university domain doesn't exist already in the smart contract then a new university will be registered using the "any-university.edu" web domain as the unique identifier.
 
@@ -40,6 +40,17 @@ There are two types of users:
 
 8. Withdrawal of the funds sent by the funders and admins.
 ![Assets 11](assets/8withdrawel.png)
+
+
+### Future Functionalities
+
+For the second phase of Back2Uni, the platform will include:
+
+1. Gasless transactions using Biconomy SDK.
+
+2. Enable funding the proposals with the tokens already staked, and letting the university withdraw the funds.
+
+3. Onboarding of university providers(they would need at least an official @company.com email and a working web page), which would be any company that offers products or services to universities, that could be added to the university pool by the Admin to be the providers (or they could even add themself to the pool)making the proposals a reality and receiving the funds associated to them. The providers would be able to bid for the proposals and The Funders would be also able to vote for the best bid.
 
 
 ### Video Demo
